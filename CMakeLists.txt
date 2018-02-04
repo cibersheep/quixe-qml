@@ -26,7 +26,7 @@ set(DATA_DIR /)
 set(DESKTOP_FILE_NAME ${PROJECT_NAME}.desktop)
 #Variables for about.qml.in and manifest
 set(APP_NAME "Quixe")
-set(APP_VERSION       "1.1.2")
+set(APP_VERSION       "1.1.3")
 
 # This command figures out the target architecture for use in the manifest file
 execute_process(
