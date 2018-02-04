@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: quixe.cibersheep\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-04 12:33+0100\n"
+"PO-Revision-Date: 2018-02-04 12:46+0100\n"
+"Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../qml/DownloadingDialog.qml:27
+msgid "The game will be added to the list of games"
+msgstr "S'afegirà el joc a la llista"
+
+#: ../qml/DownloadingDialog.qml:29
+msgid "Download in progress"
+msgstr "Descàrrega en curs"
+
+#: ../qml/components/AppHeaderMenu.qml:14
+#: ../qml/components/AppHeaderMenu.qml:27
+msgid "Back"
+msgstr "Enrere"
+
+#: ../qml/components/AppHeaderMenu.qml:20
+msgid "Import Game"
+msgstr "Import Game"
+
+#: ../qml/components/AppHeader.qml:20
+msgid "Information"
+msgstr "Informació"
+
+#: ../qml/components/ImportGameBottomEdge.qml:8
+#: ../qml/components/ImportGameBottomEdge.qml:30
+msgid "Import"
+msgstr "Importa"
+
+#: ../qml/components/ImportGameBottomEdge.qml:36
+msgid "a new game"
+msgstr "un joc nou"
+
+#: ../qml/components/ActionsForGame.qml:10
+msgid "Extract"
+msgstr "Extreu"
+
+#: ../qml/components/ActionsForGame.qml:18
+msgid "Share"
+msgstr "Comparteix"
+
+#: ../qml/components/ActionsForGame.qml:30
+msgid "Save"
+msgstr "Desa"
+
+#: ../qml/components/ListOfGames.qml:14
+msgid "Delete"
+msgstr "Esborra"
+
+#: ../qml/components/ListOfGames.qml:60
+msgid "Modified: %1. Accessed: %2"
+msgstr "Modificat: %1. Accedit: %2"
+
+#: ../qml/InstallPage.qml:35
+msgid "Save with"
+msgstr "Desa amb"
+
+#: ../qml/ExtractingDialog.qml:28
+msgid "The file is being uncompressed"
+msgstr "S'està descomprimint l'arxiu"
+
+#: ../qml/ExtractingDialog.qml:30
+msgid "Uncompressing"
+msgstr "Descomprimint"
+
+#: ../qml/ErrorDialog.qml:26
+msgid "It has been a problem downloading the file"
+msgstr "Hi ha hagut un problema amb la decàrrega"
+
+#: ../qml/ErrorDialog.qml:41
+msgid "Close"
+msgstr "Tanca"
+
+#: ../qml/SharePage.qml:35
+msgid "Share with"
+msgstr "Comparteix amb"
+
+#: ../qml/ImportPage.qml:35
+msgid "Choose"
+msgstr "Trieu"
+
+#: ../qml/Main.qml:75
+msgid "No Imported Games Yet"
+msgstr "Encara no s'ha importat cap joc"
+
+#: ../qml/Main.qml:75
+msgid "Previouly Imported Games"
+msgstr "Jocs importats"
+
+#: ../qml/Main.qml:133
+msgid "Accepted formats: %1, %2, %3"
+msgstr "Formats acceptats: %1, %2, %3"
+
+#: ../qml/Main.qml:148
+msgid "Download games from %1"
+msgstr "Descarregueu jocs de %1"
+
+#: quixe.desktop.in.h:1
+msgid "Quixe"
+msgstr "Quixe"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:24
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:43
+msgid "About"
+msgstr "Quant a"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:70
+msgid "App Development"
+msgstr "Desenvolupament de l'app"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:72
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:73
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:74
+msgid "Code Used from"
+msgstr "Codi usat"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+msgid "Special Thanks to"
+msgstr "Agraïments especials"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+msgid "for his help with the code"
+msgstr "pel seu ajut amb el codi"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "Icons"
+msgstr "Icones"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "App Icon"
+msgstr "Icona de l'app"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "Modification from Quixe icon"
+msgstr "Modificat de la icona del Quixe"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:126
+msgid "Version %1. Source %2"
+msgstr "Versió %1. Codi %2"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:136
+msgid "Under Lincense %1"
+msgstr "Sota llincència %1"

@@ -1,0 +1,15 @@
+{
+    "architecture": "armhf",
+    "description": "Quixe Glulx Machine",
+    "framework": "ubuntu-sdk-15.04.6",
+    "hooks": {
+        "quixe": {
+            "apparmor": "quixe.apparmor",
+            "desktop": "quixe.desktop"
+        }
+    },
+    "maintainer": "Joan CiberSheep <cibersheep@gmail.com>",
+    "name": "quixe.cibersheep",
+    "title": "Quixe Interpreter",
+    "version": "@APP_VERSION@"
+}

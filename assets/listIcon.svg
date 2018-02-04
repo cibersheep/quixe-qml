@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg3" xmlns="http://www.w3.org/2000/svg" height="512" viewBox="0 0 512 512" width="512" version="1.1">
+<g style="stroke-width:15.71;fill:#0e8cba;fill-rule:evenodd">
+ <path d="m257.2 484.4 29.71-146.8-26.81 6.412-34.96-8.742z"/>
+ <path d="m257.2 27.61 29.71 146.8-26.81-6.412-34.96 8.742z"/>
+ <path d="m27.67 257.1 146.8 29.71-6.412-26.81 8.742-34.96z"/>
+ <path d="m484.4 257.1-146.8 29.71 6.412-26.81-8.742-34.96z"/>
+</g>
+ <circle id="circle4762-3" cy="257" style="stroke-linejoin:round;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:normal;shape-rendering:auto;solid-color:#000000;stroke:#0e8cba;image-rendering:auto;stroke-width:21.33;fill:none" cx="256.4" r="84.9"/>
+<g style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:15.71;fill:#0e8cba">
+ <path d="m256 185.3-16.89 33.73 16.82 7.193 16.88-7.193z"/>
+ <path d="m256 326.7-16.89-33.73 16.82-7.193 16.88 7.193z"/>
+ <path d="m326.7 256-33.73-16.89-7.193 16.82 7.193 16.88z"/>
+ <path d="m185.3 256 33.73-16.89 7.193 16.82-7.193 16.88z"/>
+ <path d="m306 206-35.8 11.91 6.807 16.98 17.03 6.853z"/>
+ <path d="m206 306 11.91-35.8 16.98 6.807 6.853 17.03z"/>
+ <path d="m306 306-11.91-35.8-16.98 6.807-6.853 17.03z"/>
+ <path d="m206 206 35.8 11.91-6.807 16.98-17.03 6.853z"/>
+</g>
+</svg>

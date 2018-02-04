@@ -1,0 +1,156 @@
+/*
+ * About template
+ * By Joan CiberSheep using base file from uNav
+ *
+ * uNav is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * uNav is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+import QtQuick 2.4
+import Ubuntu.Components 1.3
+//import Ubuntu.Components.ListItems 1.3 as ListItems
+import "components"
+
+
+Page {
+    id: aboutPage
+    title: i18n.tr("About")
+	
+	//Colors
+	property string lighterColor: '#f7f6f5'
+	property string darkColor: '#0e8cba'
+	property string lightColor: '#e0e0e0'
+
+	//Margins
+	property int marginColumn: units.gu(1)	
+
+	//Properties
+	property string iconAppRute: "../assets/logo.svg"
+	property string version: "@APP_VERSION@"
+	property string license: "<a href='https://www.gnu.org/licenses/gpl-2.0.html'>GPLv2</a>"
+	property string source: "<a href='https://github.com/cibersheep/quixe-qml'>Github</a>"
+	property string appName: "@APP_NAME@"
+							 
+    header: PageHeader {
+        id: pageHeader
+        title: i18n.tr("About")
+        StyleHints {
+            foregroundColor: lighterColor
+            backgroundColor: darkColor
+            dividerColor: lightColor
+        }
+    }
+
+    Flickable {
+        id: flickable
+        anchors.fill: parent
+        anchors.top: pageHeader.bottom
+        anchors {
+            fill: parent
+            bottomMargin: units.gu(5)
+        }
+        
+        //contentHeight: levelHistoryColumn.height + units.gu(1)
+
+
+
+    ListModel {
+           id: gameStoriesModel
+
+           Component.onCompleted: initialize()
+
+           function initialize() {
+               gameStoriesModel.append({ category: i18n.tr("App Development"), mainText: "Joan CiberSheep", secondaryText: "", link: "https://cibersheep.com/" })
+
+               gameStoriesModel.append({ category: i18n.tr("Code Used from"), mainText: "Erkyrath", secondaryText: "Quixe (MIT)", license: "MIT", link: "https://github.com/erkyrath/quixe/" })
+               gameStoriesModel.append({ category: i18n.tr("Code Used from"), mainText: "Niklas Wenzel", secondaryText: "unzip code (GPL)", license: "GPL", link: "https://github.com/ubports/filemanager-app" })
+               gameStoriesModel.append({ category: i18n.tr("Code Used from"), mainText: "Brian Douglass", secondaryText: "DownloadInterceptor (GPLv3)", license: "GPL 3.0", link: "https://github.com/bhdouglass/downloadinterceptor" })
+
+               gameStoriesModel.append({ category: i18n.tr("Special Thanks to"), mainText: "Brian Douglass", secondaryText: i18n.tr("for his help with the code"), link: "http://bhdouglass.com/" })
+
+               gameStoriesModel.append({ category: i18n.tr("Icons"), mainText: i18n.tr("App Icon"), secondaryText: i18n.tr("Modification from Quixe icon"), link: "http://eblong.com/zarf/glulx/quixe/" })
+            }
+       }
+       ListView {
+               id: gameStoriesView
+
+               model: gameStoriesModel
+               anchors.fill: parent
+               section.property: "category"
+               section.criteria: ViewSection.FullString
+               section.delegate: ListItemHeader {
+                   title: section
+               }
+
+               header: Item {
+                   width: parent.width
+                   height: iconTop.height + units.gu(28)
+                   UbuntuShape {
+                       id: iconTop
+                       width: units.gu(20)
+                       height: width
+                       anchors{
+                           horizontalCenter: parent.horizontalCenter
+                           top: parent.top
+                           topMargin: units.gu(12)
+                       }
+                       aspect: UbuntuShape.Flat
+                       source: Image {
+                           source: iconAppRute
+                       }
+                   }
+		   Label {
+			id: appNameLabel
+			anchors.top: iconTop.bottom
+			anchors.topMargin: units.gu(4)
+			width: parent.width
+			wrapMode: Text.WordWrap
+			horizontalAlignment: Text.AlignHCenter
+			text: i18n.tr(appName)
+			font.bold: true
+		   }
+	   	   Label {
+			id: appInfo
+			anchors.top: appNameLabel.bottom
+			anchors.topMargin: units.gu(2)
+			width: parent.width
+			wrapMode: Text.WordWrap
+			horizontalAlignment: Text.AlignHCenter
+			text: i18n.tr("Version %1. Source %2").arg(version).arg(source)
+			onLinkActivated: Qt.openUrlExternally(link)
+			linkColor: darkColor
+		   }
+		   Label {
+			anchors.top: appInfo.bottom
+			anchors.topMargin: units.gu(2)
+			width: parent.width
+			wrapMode: Text.WordWrap
+			horizontalAlignment: Text.AlignHCenter
+			text: i18n.tr("Under Lincense %1").arg(license)
+			onLinkActivated: Qt.openUrlExternally(link)
+			linkColor: darkColor
+		   }
+               }
+
+               delegate: ListItem {
+                   height: storiesDelegateLayout.height
+                   divider.visible: false
+                   ListItemLayout {
+                       id: storiesDelegateLayout
+                       title.text: mainText
+		       subtitle.text: secondaryText
+                       ProgressionSlot { name: link !== "" ? "next" : ""}
+                   }
+                   onClicked: model.link !== "" ? Qt.openUrlExternally(model.link) : null
+               }
+           }
+    }
+}
+

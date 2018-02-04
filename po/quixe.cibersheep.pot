@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: quixe.cibersheep\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-04 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/DownloadingDialog.qml:27
+msgid "The game will be added to the list of games"
+msgstr ""
+
+#: ../qml/DownloadingDialog.qml:29
+msgid "Download in progress"
+msgstr ""
+
+#: ../qml/components/AppHeaderMenu.qml:14
+#: ../qml/components/AppHeaderMenu.qml:27
+msgid "Back"
+msgstr ""
+
+#: ../qml/components/AppHeaderMenu.qml:20
+msgid "Import Game"
+msgstr ""
+
+#: ../qml/components/AppHeader.qml:20
+msgid "Information"
+msgstr ""
+
+#: ../qml/components/ImportGameBottomEdge.qml:8
+#: ../qml/components/ImportGameBottomEdge.qml:30
+msgid "Import"
+msgstr ""
+
+#: ../qml/components/ImportGameBottomEdge.qml:36
+msgid "a new game"
+msgstr ""
+
+#: ../qml/components/ActionsForGame.qml:10
+msgid "Extract"
+msgstr ""
+
+#: ../qml/components/ActionsForGame.qml:18
+msgid "Share"
+msgstr ""
+
+#: ../qml/components/ActionsForGame.qml:30
+msgid "Save"
+msgstr ""
+
+#: ../qml/components/ListOfGames.qml:14
+msgid "Delete"
+msgstr ""
+
+#: ../qml/components/ListOfGames.qml:60
+msgid "Modified: %1. Accessed: %2"
+msgstr ""
+
+#: ../qml/InstallPage.qml:35
+msgid "Save with"
+msgstr ""
+
+#: ../qml/ExtractingDialog.qml:28
+msgid "The file is being uncompressed"
+msgstr ""
+
+#: ../qml/ExtractingDialog.qml:30
+msgid "Uncompressing"
+msgstr ""
+
+#: ../qml/ErrorDialog.qml:26
+msgid "It has been a problem downloading the file"
+msgstr ""
+
+#: ../qml/ErrorDialog.qml:41
+msgid "Close"
+msgstr ""
+
+#: ../qml/SharePage.qml:35
+msgid "Share with"
+msgstr ""
+
+#: ../qml/ImportPage.qml:35
+msgid "Choose"
+msgstr ""
+
+#: ../qml/Main.qml:75
+msgid "No Imported Games Yet"
+msgstr ""
+
+#: ../qml/Main.qml:75
+msgid "Previouly Imported Games"
+msgstr ""
+
+#: ../qml/Main.qml:133
+msgid "Accepted formats: %1, %2, %3"
+msgstr ""
+
+#: ../qml/Main.qml:148
+msgid "Download games from %1"
+msgstr ""
+
+#: quixe.desktop.in.h:1
+msgid "Quixe"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:24
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:43
+msgid "About"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:70
+msgid "App Development"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:72
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:73
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:74
+msgid "Code Used from"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+msgid "Special Thanks to"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+msgid "for his help with the code"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "Icons"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "App Icon"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "Modification from Quixe icon"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:126
+msgid "Version %1. Source %2"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:136
+msgid "Under Lincense %1"
+msgstr ""

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg3" xmlns="http://www.w3.org/2000/svg" height="512" viewBox="0 0 512 512" width="512" version="1.1">
+ <rect id="rect4898" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;fill:#cfe8f1" height="512" width="512" y="0" x="0"/>
+ <circle id="path4760-1" cx="256.4" cy="256.9" r="143.8" style="stroke-linejoin:round;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;stroke:#333;image-rendering:auto;stroke-width:10.79;fill:none"/>
+ <path id="path4808-2" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m188.9 94.7-0.5536 44.28 30.64 27.32-0.5536-43.91z"/>
+ <path id="path4810-7" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m322.6 94.7 0.5536 44.28-30.64 27.32 0.5536-43.91z"/>
+ <path id="path4812-0" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m188.9 419.3-0.5536-44.28 30.64-27.32-0.5536 43.91z"/>
+ <path id="path4814-9" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m322.6 419.3 0.5536-44.28-30.64-27.32 0.5536 43.91z"/>
+ <path id="path4822-3" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m418.1 190.2-44.28-0.5542-27.32 30.64 43.91-0.5542z"/>
+ <path id="path4824-6" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m418.1 323.9-44.28 0.5542-27.32-30.64 43.91 0.5542z"/>
+ <path id="path4826-0" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m93.43 190.2 44.28-0.5542 27.32 30.64-43.91-0.5542z"/>
+ <path id="path4828-6" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m93.43 323.9 44.28 0.5542 27.32-30.64-43.91 0.5542z"/>
+ <path id="path4898-2" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m257.1 460.5 26.61-131.5-24.01 5.742-31.31-7.829z"/>
+ <path id="path4900-6" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m257.1 51.47 26.61 131.5-24.01-5.742-31.31 7.829z"/>
+ <path id="path4902-1" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m51.52 257 131.5 26.61-5.742-24.01 7.829-31.31z"/>
+ <path id="path4904-8" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m460.5 257-131.5 26.61 5.742-24.01-7.829-31.31z"/>
+ <path id="path4876-7" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m126.1 126.5 65.24 98.12 9.917-21.91 23.49-13.05z"/>
+ <path id="path4878-9" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m388.5 126.5-65.24 98.12-9.917-21.91-23.49-13.05z"/>
+ <path id="path4880-2" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m126.1 388.4 65.24-98.12 9.917 21.91 23.49 13.05z"/>
+ <path id="path4882-0" style="stroke-width:14.07;fill:#0e8cba;fill-rule:evenodd" d="m388.5 388.4-65.24-98.12-9.917 21.91-23.49 13.05z"/>
+ <circle id="circle4936-2" cx="256.4" cy="256.9" r="76.03" style="opacity:.2;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba"/>
+ <circle id="circle4762-3" cx="256.4" style="stroke-linejoin:round;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;stroke:#333;image-rendering:auto;stroke-width:19.1;fill:none" r="76.03" cy="256.9"/>
+ <path id="path4783-7" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m256 192.7-15.13 30.21 15.06 6.442 15.12-6.442z"/>
+ <path id="path4928" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m256 319.3-15.13-30.21 15.06-6.442 15.12 6.442z"/>
+ <path id="path4930" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m319.3 256-30.21-15.13-6.442 15.06 6.442 15.12z"/>
+ <path id="path4932" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m192.7 256 30.21-15.13 6.442 15.06-6.442 15.12z"/>
+ <path id="path4934" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m300.8 211.2-32.06 10.67 6.096 15.21 15.25 6.137z"/>
+ <path id="path4936" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m211.2 300.8 10.67-32.06 15.21 6.096 6.137 15.25z"/>
+ <path id="path4938" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m300.8 300.8-10.67-32.06-15.21 6.096-6.137 15.25z"/>
+ <path id="path4940" style="color-rendering:auto;fill-rule:evenodd;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;stroke-width:14.07;fill:#0e8cba" d="m211.2 211.2 32.06 10.67-6.096 15.21-15.25 6.137z"/>
+ <rect id="rect4993" style="opacity:.1;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="512" width="256" y="0" x="256"/>
+ <rect id="rect4997" style="opacity:.1;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;fill:#fff" height="256" width="256" y="256" x="0"/>
+ <rect id="rect4995" style="opacity:.1;color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;paint-order:stroke fill markers;shape-rendering:auto;solid-color:#000000;image-rendering:auto;fill:#fff" height="256" width="256" y="256" x="256"/>
+</svg>
