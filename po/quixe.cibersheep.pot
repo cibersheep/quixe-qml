@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quixe.cibersheep\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 12:38+0000\n"
+"POT-Creation-Date: 2018-02-07 22:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/DownloadingDialog.qml:27
+#: ../qml/DownloadingDialog.qml:30
+msgid "Download in progress"
+msgstr ""
+
+#: ../qml/DownloadingDialog.qml:31
 msgid "The game will be added to the list of games"
 msgstr ""
 
-#: ../qml/DownloadingDialog.qml:29
-msgid "Download in progress"
+#: ../qml/DownloadingDialog.qml:54 ../qml/ErrorDialog.qml:41
+msgid "Close"
 msgstr ""
 
 #: ../qml/components/AppHeaderMenu.qml:14
@@ -83,10 +87,6 @@ msgstr ""
 msgid "It has been a problem downloading the file"
 msgstr ""
 
-#: ../qml/ErrorDialog.qml:41
-msgid "Close"
-msgstr ""
-
 #: ../qml/SharePage.qml:35
 msgid "Share with"
 msgstr ""
@@ -131,6 +131,7 @@ msgid "Code Used from"
 msgstr ""
 
 #: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
 msgid "Special Thanks to"
 msgstr ""
 
@@ -138,22 +139,26 @@ msgstr ""
 msgid "for his help with the code"
 msgstr ""
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
+msgid "for his help with the userScript to make it look good"
+msgstr ""
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
 msgid "Icons"
 msgstr ""
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
 msgid "App Icon"
 msgstr ""
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
 msgid "Modification from Quixe icon"
 msgstr ""
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:126
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:127
 msgid "Version %1. Source %2"
 msgstr ""
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:136
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:137
 msgid "Under Lincense %1"
 msgstr ""

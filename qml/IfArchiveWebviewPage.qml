@@ -106,11 +106,8 @@ Page {
 			*/
 		}
 
-		onFail: {
-			//Something went wrong and the `message` argument will tell you what it was.
-			console.log("Error: " + message)
-			PopupUtils.open(errorDialog, root.mainView, { "message" : message })
-		}
+		
+		
 	}
 
 	HideHeader { }

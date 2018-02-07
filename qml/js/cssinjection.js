@@ -1,4 +1,11 @@
-
+// ==UserScript==
+// @name          ifarchive
+// @namespace     https://ifarchive.info
+// @description	  
+// @author       
+// @homepage      https://ifarchive.info
+// @run-at        document-start
+// ==/UserScript==
 (function() {var css = [ 
 ".Page { margin: 0 !important; background-color: #fdfdfd !important; color: #333333 !important; border-right: 0 !important; padding: 0.1em 1em 4em !important; }",
 "h1 { color: #0e8cba !important; font-size: 2.5em !important; font-family: sans-serif !important; }",

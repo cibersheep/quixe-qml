@@ -34,9 +34,17 @@ Dialog {
         root.title = name
     }
 
-    ActivityIndicator {
-		id: loadingSpinner
-		running: true
+    ProgressBar {
+		id: downloadBar
+		height: units.dp(3)
+		anchors {
+			left: parent.left
+			right: parent.right
+		}
+		indeterminate: true
+		showProgressPercentage: false
+		minimumValue: 0
+		maximumValue: 100
 	}
     
     //TO DO: Implement a cancel to the uncompress

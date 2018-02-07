@@ -20,36 +20,64 @@ import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
 //import org.nemomobile.folderlistmodel 1.0
 
+import DownloadInterceptor 1.0
+
 Dialog {
-    id: root
+    id: downloadDialog
     //property FolderListModel model
+    signal abortDownload()
     property Page page
+    property string dialogTitle: i18n.tr("Download in progress")
     property string descriptionPrepend: i18n.tr("The game will be added to the list of games")
     
-    title: i18n.tr("Download in progress")
+    title: dialogTitle
     text: descriptionPrepend
 
-    function startOperation(name) {
-        root.title = name
-    }
+    ProgressBar {
+		id: downloadBar
+		height: units.dp(3)
+		anchors {
+			left: parent.left
+			right: parent.right
+		}
 
-    ActivityIndicator {
-		id: loadingSpinner
-		running: true
+		showProgressPercentage: false
+		minimumValue: 0
+		maximumValue: 100
 	}
     
     //TO DO: Implement a cancel to the download
-    /*
+    
     Button {
+		id: cancelButton
+		visible: false
         text: i18n.tr("Close")
         onClicked: {
-            console.log("Closing popup")
+            //console.log("Aborting")
+            //DownloadInterceptor.abort()
             //DownloadInterceptor.cancelAction()
-            PopupUtils.close(root)
+            console.log("Closing popup")
+            //PopupUtils.close()
             mainPageStack.pop()
         }
     }
-    */
+    
+    
+    Connections {
+		target: DownloadInterceptor
+		
+		onDownloading: {
+			downloadBar.value = (received * 100) / total
+			//console.log("- " + received + " % " +downloadBar.value)
+		}
+		
+		onFail: {
+			//Something went wrong and the `message` argument will tell you what it was.
+			console.log("Error: " + message)
+			cancelButton.visible = true
+			downloadDialog.text = message
+		}
+	}
 
 
 }
