@@ -12,7 +12,7 @@ DownloadInterceptor::DownloadInterceptor() {
     m_cookieJar = new QNetworkCookieJar();
     m_manager.setCookieJar(m_cookieJar);
 
-    connect(&m_manager, SIGNAL(finished(QNetworkReply*)), SLOT(downloadFinished(QNetworkReply*)));
+    connect(&m_manager, SIGNAL(finished(QNetworkReply*)), SLOT(downloadFinished(QNetworkReply*)));   
 }
 
 void DownloadInterceptor::download(QString url, QStringList cookies, QString suggestedFilename, QString userAgent) {
@@ -41,6 +41,8 @@ void DownloadInterceptor::download(QString url, QStringList cookies, QString sug
     request.setHeader(QNetworkRequest::UserAgentHeader, userAgent);
 
     QNetworkReply *reply = m_manager.get(request);
+    connect(reply, SIGNAL(downloadProgress(qint64, qint64)), SIGNAL(downloading(qint64, qint64)));
+    connect(this, SIGNAL(abortDownload()), reply, SLOT(abort()));   
 }
 
 void DownloadInterceptor::remove(QString path) {
@@ -103,4 +105,8 @@ void DownloadInterceptor::downloadFinished(QNetworkReply *reply) {
     }
 
     reply->deleteLater();
+}
+
+void DownloadInterceptor::abort() {
+    emit abortDownload();
 }

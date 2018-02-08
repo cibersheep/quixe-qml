@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quixe.cibersheep\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-04 12:33+0100\n"
-"PO-Revision-Date: 2018-02-04 12:46+0100\n"
+"POT-Creation-Date: 2018-02-08 21:25+0100\n"
+"PO-Revision-Date: 2018-02-08 21:25+0100\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -18,13 +18,21 @@ msgstr ""
 "X-Generator: Poedit 1.8.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../qml/DownloadingDialog.qml:27
+#: ../qml/DownloadingDialog.qml:30
+msgid "Download in progress"
+msgstr "Descàrrega en curs"
+
+#: ../qml/DownloadingDialog.qml:31
 msgid "The game will be added to the list of games"
 msgstr "S'afegirà el joc a la llista"
 
-#: ../qml/DownloadingDialog.qml:29
-msgid "Download in progress"
-msgstr "Descàrrega en curs"
+#: ../qml/DownloadingDialog.qml:54
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: ../qml/DownloadingDialog.qml:78 ../qml/ErrorDialog.qml:41
+msgid "Close"
+msgstr "Tanca"
 
 #: ../qml/components/AppHeaderMenu.qml:14
 #: ../qml/components/AppHeaderMenu.qml:27
@@ -84,10 +92,6 @@ msgstr "Descomprimint"
 msgid "It has been a problem downloading the file"
 msgstr "Hi ha hagut un problema amb la decàrrega"
 
-#: ../qml/ErrorDialog.qml:41
-msgid "Close"
-msgstr "Tanca"
-
 #: ../qml/SharePage.qml:35
 msgid "Share with"
 msgstr "Comparteix amb"
@@ -132,6 +136,7 @@ msgid "Code Used from"
 msgstr "Codi usat"
 
 #: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
 msgid "Special Thanks to"
 msgstr "Agraïments especials"
 
@@ -139,22 +144,26 @@ msgstr "Agraïments especials"
 msgid "for his help with the code"
 msgstr "pel seu ajut amb el codi"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
+msgid "for his help with the userScript to make it look good"
+msgstr "pel seu ajut amb l'userScript i fer-ho tot més guapo"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
 msgid "Icons"
 msgstr "Icones"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
 msgid "App Icon"
 msgstr "Icona de l'app"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
 msgid "Modification from Quixe icon"
 msgstr "Modificat de la icona del Quixe"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:126
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:127
 msgid "Version %1. Source %2"
 msgstr "Versió %1. Codi %2"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:136
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:137
 msgid "Under Lincense %1"
 msgstr "Sota llincència %1"

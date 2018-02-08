@@ -15,10 +15,15 @@ public:
 
     Q_INVOKABLE void download(QString url, QStringList cookies, QString suggestedFilename, QString userAgent);
     Q_INVOKABLE void remove(QString path);
+    Q_INVOKABLE void abort();
 
 Q_SIGNALS:
     void success(QString path);
     void fail(QString message);
+    void downloading(qint64 received, qint64 total);
+
+signals:
+    void abortDownload();
 
 public Q_SLOTS:
     void downloadFinished(QNetworkReply *reply);

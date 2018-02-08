@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quixe.cibersheep\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-07 22:10+0000\n"
+"POT-Creation-Date: 2018-02-08 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,11 @@ msgstr ""
 msgid "The game will be added to the list of games"
 msgstr ""
 
-#: ../qml/DownloadingDialog.qml:54 ../qml/ErrorDialog.qml:41
+#: ../qml/DownloadingDialog.qml:54
+msgid "Cancel"
+msgstr ""
+
+#: ../qml/DownloadingDialog.qml:78 ../qml/ErrorDialog.qml:41
 msgid "Close"
 msgstr ""
 

@@ -50,11 +50,11 @@ Dialog {
     
     Button {
 		id: cancelButton
-		visible: false
-        text: i18n.tr("Close")
+		visible: true
+        text: i18n.tr("Cancel")
         onClicked: {
-            //console.log("Aborting")
-            //DownloadInterceptor.abort()
+            console.log("Aborting")
+            DownloadInterceptor.abort()
             //DownloadInterceptor.cancelAction()
             console.log("Closing popup")
             //PopupUtils.close()
@@ -75,6 +75,7 @@ Dialog {
 			//Something went wrong and the `message` argument will tell you what it was.
 			console.log("Error: " + message)
 			cancelButton.visible = true
+			cancelButton.texxt = i18n.tr("Close")
 			downloadDialog.text = message
 		}
 	}
