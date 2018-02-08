@@ -75,7 +75,7 @@ Dialog {
 			//Something went wrong and the `message` argument will tell you what it was.
 			console.log("Error: " + message)
 			cancelButton.visible = true
-			cancelButton.texxt = i18n.tr("Close")
+			cancelButton.text = i18n.tr("Close")
 			downloadDialog.text = message
 		}
 	}
