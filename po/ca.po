@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: quixe.cibersheep\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-08 21:25+0100\n"
-"PO-Revision-Date: 2018-02-08 21:25+0100\n"
+"POT-Creation-Date: 2018-02-28 13:15+0100\n"
+"PO-Revision-Date: 2018-02-28 13:16+0100\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -30,7 +30,8 @@ msgstr "S'afegirà el joc a la llista"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: ../qml/DownloadingDialog.qml:78 ../qml/ErrorDialog.qml:41
+#: ../qml/DownloadingDialog.qml:57 ../qml/DownloadingDialog.qml:76
+#: ../qml/ErrorDialog.qml:41
 msgid "Close"
 msgstr "Tanca"
 
@@ -137,6 +138,7 @@ msgstr "Codi usat"
 
 #: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
 #: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
 msgid "Special Thanks to"
 msgstr "Agraïments especials"
 
@@ -148,22 +150,26 @@ msgstr "pel seu ajut amb el codi"
 msgid "for his help with the userScript to make it look good"
 msgstr "pel seu ajut amb l'userScript i fer-ho tot més guapo"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:78
+msgid "for his Spanish translation"
+msgstr "per la seva traducció a l'espanyol"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:80
 msgid "Icons"
 msgstr "Icones"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:80
 msgid "App Icon"
 msgstr "Icona de l'app"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:80
 msgid "Modification from Quixe icon"
 msgstr "Modificat de la icona del Quixe"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:127
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:128
 msgid "Version %1. Source %2"
 msgstr "Versió %1. Codi %2"
 
-#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:137
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:138
 msgid "Under Lincense %1"
 msgstr "Sota llincència %1"
