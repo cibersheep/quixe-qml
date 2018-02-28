@@ -75,6 +75,7 @@ Page {
 
                gameStoriesModel.append({ category: i18n.tr("Special Thanks to"), mainText: "Brian Douglass", secondaryText: i18n.tr("for his help with the code"), link: "http://bhdouglass.com/" })
                gameStoriesModel.append({ category: i18n.tr("Special Thanks to"), mainText: "Mateo Salta", secondaryText: i18n.tr("for his help with the userScript to make it look good"), link: "https://github.com/mateosalta/" })
+               gameStoriesModel.append({ category: i18n.tr("Special Thanks to"), mainText: "Advocatux", secondaryText: i18n.tr("for his Spanish translation"), link: "https://github.com/advocatux/" })
 
                gameStoriesModel.append({ category: i18n.tr("Icons"), mainText: i18n.tr("App Icon"), secondaryText: i18n.tr("Modification from Quixe icon"), link: "http://eblong.com/zarf/glulx/quixe/" })
             }
