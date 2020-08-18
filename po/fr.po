@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: quixe.cibersheep\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-08 20:26+0000\n"
+"PO-Revision-Date: 2020-08-18 21:11+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/DownloadingDialog.qml:30
+msgid "Download in progress"
+msgstr "Téléchargement en cours"
+
+#: ../qml/DownloadingDialog.qml:31
+msgid "The game will be added to the list of games"
+msgstr "Le jeu sera ajouté à la liste des jeux"
+
+#: ../qml/DownloadingDialog.qml:54
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../qml/DownloadingDialog.qml:78 ../qml/ErrorDialog.qml:41
+msgid "Close"
+msgstr "Fermer"
+
+#: ../qml/components/AppHeaderMenu.qml:14
+#: ../qml/components/AppHeaderMenu.qml:27
+msgid "Back"
+msgstr "Retour"
+
+#: ../qml/components/AppHeaderMenu.qml:20
+msgid "Import Game"
+msgstr "Importer un jeu"
+
+#: ../qml/components/AppHeader.qml:20
+msgid "Information"
+msgstr "Informations"
+
+#: ../qml/components/ImportGameBottomEdge.qml:8
+#: ../qml/components/ImportGameBottomEdge.qml:30
+msgid "Import"
+msgstr "Importer"
+
+#: ../qml/components/ImportGameBottomEdge.qml:36
+msgid "a new game"
+msgstr "un nouveau jeu"
+
+#: ../qml/components/ActionsForGame.qml:10
+msgid "Extract"
+msgstr "Extraire"
+
+#: ../qml/components/ActionsForGame.qml:18
+msgid "Share"
+msgstr "Partager"
+
+#: ../qml/components/ActionsForGame.qml:30
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../qml/components/ListOfGames.qml:14
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../qml/components/ListOfGames.qml:60
+msgid "Modified: %1. Accessed: %2"
+msgstr "Modifié : %1. Accédé : %2"
+
+#: ../qml/InstallPage.qml:35
+msgid "Save with"
+msgstr "Enregistrer avec"
+
+#: ../qml/ExtractingDialog.qml:28
+msgid "The file is being uncompressed"
+msgstr "Le fichier est en cours de décompression"
+
+#: ../qml/ExtractingDialog.qml:30
+msgid "Uncompressing"
+msgstr "Décompression"
+
+#: ../qml/ErrorDialog.qml:26
+msgid "It has been a problem downloading the file"
+msgstr "Un problème est survenu lors du téléchargement du fichier"
+
+#: ../qml/SharePage.qml:35
+msgid "Share with"
+msgstr "Partager avec"
+
+#: ../qml/ImportPage.qml:35
+msgid "Choose"
+msgstr "Choisissez"
+
+#: ../qml/Main.qml:75
+msgid "No Imported Games Yet"
+msgstr "Pas encore de jeux importés"
+
+#: ../qml/Main.qml:75
+msgid "Previouly Imported Games"
+msgstr "Jeux précédemment importés"
+
+#: ../qml/Main.qml:133
+msgid "Accepted formats: %1, %2, %3"
+msgstr "Formats acceptés : %1, %2, %3"
+
+#: ../qml/Main.qml:148
+msgid "Download games from %1"
+msgstr "Télécharger des jeux depuis %1"
+
+#: quixe.desktop.in.h:1
+msgid "Quixe"
+msgstr "Quixe"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:24
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:43
+msgid "About"
+msgstr "À propos"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:70
+msgid "App Development"
+msgstr "Développement de l'application"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:72
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:73
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:74
+msgid "Code Used from"
+msgstr "Code utilisé à partir de"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
+msgid "Special Thanks to"
+msgstr "Remerciements spéciaux à"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:76
+msgid "for his help with the code"
+msgstr "pour son aide avec le code"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:77
+msgid "for his help with the userScript to make it look good"
+msgstr "pour son aide avec le script utilisateur pour le rendre plus agréable"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
+msgid "Icons"
+msgstr "Icônes"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
+msgid "App Icon"
+msgstr "Icône de l'application"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:79
+msgid "Modification from Quixe icon"
+msgstr "Modification de l'icône de Quixie"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:127
+msgid "Version %1. Source %2"
+msgstr "Version %1. Code source %2"
+
+#: /home/cibersheep/Ubuntu_Touch_Projects/Quixe-qml/about.qml.in:137
+msgid "Under Lincense %1"
+msgstr "Sous licence %1"
